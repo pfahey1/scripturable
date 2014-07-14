@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/search"
+          android:title="@string/menu_search"
+          android:icon="@drawable/ic_menu_search"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    
+     <item android:id="@+id/notes"
+          android:title="@string/menu_notes"
+          android:showAsAction="collapseActionView|ifRoom">
+          <menu>
+            <item android:id="@+id/new_note"
+                  android:title="@string/new_note" />
+            <item android:id="@+id/saved_notes"
+                  android:title="@string/saved_notes" />
+        </menu>
+        
+          </item>
+      
+
+    <item android:id="@+id/browser" 
+          android:title="@string/menu_browser"
+          android:showAsAction="collapseActionView|ifRoom"
+         />
+     
+</menu>

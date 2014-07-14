@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- The name of the application. -->
+    <string name="app_name">Scripturable</string>
+    
+    <string name="no_saved_notes">No Currently Saved Notes</string>
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Bible</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Search the bible</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Search</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definitions of verses</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Use the search box in the Action Bar to look up a word</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d result for \"%2$s\": </item>
+      <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+    
+    <string name ="menu_browser"> Browser </string > 
+    <string name ="menu_fonts"> Fonts </string> 
+    <string name ="menu_notes"> Notes </string> 
+    <string name ="menu_fonts1"> Small </string> 
+    <string name ="menu_fonts2"> Large </string> 
+    <string name ="menu_fonts3"> Default </string> 
+     <string name ="note_title_hint"> Enter a title for the Note. </string> 
+     <string name ="note_detail_hint"> Enter the details for this Note. </string> 
+     
+       <string name ="new_note"> New Note </string> 
+    <string name ="saved_notes"> Saved Notes </string> 
+     
+     <string name="note_title_label">Title</string> 
+  <string name="note_details_label">Details</string> 
+  <string name="button_text">Save Note</string>
+   <string name="notes_title">Notes</string>
+   <string name="verses_title">Bookmarks</string>
+<string name="delete_note">Delete Note</string>
+<string name="note_report_text">Send Note to Another Program </string>
+
+<string name="verse_report_text">Send verse to Another Program</string>
+<string name="verse_save_text">Save verse to Bookmarks</string>
+  <string name="send_report">Send note report via</string>
+  <string name="send_verse">Send verse favorite via</string>
+  
+  <string-array name="note_array">
+        <item>Saved Notes</item>
+        <item>New Note</item> 
+    </string-array>
+    
+  <string-array name="font_array">
+        <item>Saved Notes</item>
+        <item>New Note</item> 
+    </string-array>
+
+
+</resources>
